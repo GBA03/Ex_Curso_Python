@@ -1,0 +1,11 @@
+n = str(input('Digite seu nome completo:')).strip()
+m = n.upper()
+mi = n.lower()
+st = len(n) - n.count(' ')
+separa = n.split()
+#pri = n.find(' ')
+
+print(f'O seu nome completo é: {n}. Abaixo esta algumas formatações com ele:')
+print(f'Letra maiscula: {m}\nLetra minuscula: {mi}\nQuantas letras sem considerar espaços: {st}')
+print(f'Quantas letras tem o primerio nome: {separa[0], len(separa[0])}')
+#print(f'Quantas letras tem o primerio nome: {pri}')
